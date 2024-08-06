@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arrYear">
+        <item>Random</item>
+        <item>No Year</item>
+    </string-array>
+
+    <string-array name="arrMonth">
+        <item>Random</item>
+        <item>No Month</item>
+    </string-array>
+
+    <string-array name="arrCvv">
+        <item>Random</item>
+        <item>No Cvv</item>
+    </string-array>
+
+    <string-array name="tools">
+        <item>Bulk</item>
+        <item>By Network</item>
+        <item>By Country</item>
+        <item>By Product</item>
+        <item>By Issuer</item>
+        <item>IP Address</item>
+        <item>IFSC</item>
+        <item>Binlist.net</item>
+        <item>Seon.io</item>
+        <item>Validate</item>
+        <item>Random User</item>
+        <item>Generate</item>
+    </string-array>
+
+
+    <string-array name="country_codes">
+        <item>IN</item>
+        <item>US</item>
+        <item>GB</item>
+        <item>CA</item>
+        <item>DE</item>
+        <item>FR</item>
+        <item>ES</item>
+        <item>CH</item>
+        <item>DK</item>
+        <item>FI</item>
+        <item>IE</item>
+        <item>NO</item>
+        <item>NZ</item>
+        <item>MX</item>
+        <item>BR</item>
+        <item>TR</item>
+        <item>UA</item>
+        <item>RS</item>
+        <item>IR</item>
+        <item>AU</item>
+        <item>NL</item>
+    </string-array>
+    <string-array name="gender">
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+
+</resources>

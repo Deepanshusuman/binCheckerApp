@@ -1,0 +1,1356 @@
+<resources>
+    <string name="app_name">Bin Checker</string>
+    <string name="preference_file_key">com.assets.binfinder</string>
+    <string name="title_home">Home</string>
+    <string name="title_lookup">Lookup</string>
+    <string name="title_save">Save</string>
+    <string name="title_report">Data Correction</string>
+    <string name="title_saved">Saved</string>
+    <string name="title_premium">Premium</string>
+    <string name="text_greeting">Good Morning</string>
+    <string name="text_setting">Settings</string>
+    <string name="text_history">History</string>
+    <string name="text_recent">Recent Lookups</string>
+    <string name="text_account">Account</string>
+    <string name="text_about">About</string>
+
+    <string name="text_24hours">Last 24 hours searches</string>
+    <string name="text_7days">Last 1 Week searches</string>
+    <string name="text_30days">Last 1 Month searches</string>
+    <string name="text_from_country">Top Bins from your country</string>
+
+    <string name="text_true">true</string>
+    <string name="text_false">false</string>
+
+    <string name="error_occurred">An error occurred</string>
+    <string name="text_back_online">Back Online</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+
+    <plurals name="items">
+        <item quantity="one">Once</item>
+        <item quantity="other">%d times</item>
+    </plurals>
+    <string name="text_about_summary">There is not 8 digit bins currently as of now of google  and as per ISO/IEC 7812 2 the Network (Brands) will issue 8 digits bins from 1 april 2022 . visa has recommend to make a room for 9 digits and for mastercard it is 11 . so the previos bins has been padded up to 11 digits.</string>
+    <string name="cancel">Cancel</string>
+
+    <string-array name="menu_items">
+        <item>Settings</item>
+        <item>About and Links</item>
+        <item>Help</item>
+    </string-array>
+    <string name="postcodeformat">Postal Code Format</string>
+    <string name="startofweek">Start of Week</string>
+
+    <string name="bin_found">Bin Found</string>
+    <string name="boolentrue">true</string>
+    <string name="find">Search</string>
+    <string name="validate">Validate</string>
+    <string name="bank">Bank</string>
+    <string name="url">Url</string>
+    <string name="phone">Phone</string>
+    <string name="code">Code</string>
+    <string name="name">Name</string>
+    <string name="city">City</string>
+    <string name="level">Level</string>
+    <string name="tld">TLD</string>
+    <string name="binObject">Bin</string>
+    <string name="clear">Clear</string>
+    <string name="reset">Reset</string>
+    <string name="check">Check</string>
+    <string name="number">Number</string>
+    <string name="amex">Amex</string>
+    <string name="visa">Visa</string>
+    <string name="mc">Mastercard</string>
+    <string name="generate">Generate</string>f
+    <string name="notexist">Bin Not Found</string>
+    <string name="exist">Bin Found</string>
+    <string name="open">Open</string>
+    <string name="dash"> - </string>
+    <string name="colon"> : </string>
+    <string name="space"> </string>
+    <string name="close">Close</string>
+    <string name="enter6digit">At least 6 digits required</string>
+    <string name="pipe">Pipe</string>
+    <string name="csv">Csv</string>
+    <string name="empty">Cannot be empty</string>
+    <string name="lessthan12">Cannot be more than 12</string>
+    <string name="lessthan2020">Cannot be less than 2021</string>
+    <string name="lessthan1">Cannot be less then 1</string>
+    <string name="lessthan6">Cannot be less then 6</string>
+    <string name="currency">Currency</string>
+    <string name="symbol">Symbol</string>
+    <string name="tru">true</string>
+    <string name="fal">false</string>
+    <string name="sww">Something went wrong</string>
+    <string name="ct">Card type</string>
+    <string name="cn">Card number</string>
+    <string name="incompletedigits">At least 12 digits required</string>
+    <string name="ipdetails">Ip details</string>
+    <string name="Iban">Iban</string>
+    <string name="alpha2">Alpha-2</string>
+    <string name="numeric">Numeric code</string>
+    <string name="callingcode">Calling code</string>
+    <string name="alpha3">Alpha-3</string>
+    <string name="version">Version</string>
+    <string name="links">Links</string>
+    <string name="language">Language</string>
+    <string name="card">Card</string>
+    <string name="length">Length</string>
+    <string name="brand">Brand</string>
+    <string name="type">Type</string>
+    <string name="basic">Default</string>
+    <string name="binlist">Binlist.net</string>
+    <string name="by_brand">By brand</string>
+    <string name="date">Date</string>
+    <string name="month">Month</string>
+    <string name="valid">Valid</string>
+    <string name="bic">Bic</string>
+    <string name="std_code">Std code</string>
+    <string name="imps">Imps</string>
+    <string name="upi">Upi</string>
+    <string name="rtgs">Rtgs</string>
+    <string name="neft">Neft</string>
+    <string name="micr_code">Micr code</string>
+    <string name="branch">Branch</string>
+    <string name="centre">Centre</string>
+    <string name="district">District</string>
+    <string name="state">State</string>
+    <string name="address">Address</string>
+    <string name="contact">Contact</string>
+    <string name="ip_domain">Ip/Domain</string>
+    <string name="country">Country</string>
+    <string name="region">Region</string>
+    <string name="zip">Zip</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="timezone">Timezone</string>
+    <string name="isp">Isp</string>
+    <string name="org">Org</string>
+    <string name="as">As</string>
+    <string name="copy">Copy</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="about">About</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="report_a_crash">Report a crash</string>
+    <string name="rate_us">Rate us</string>
+    <string name="share">Share</string>
+    <string name="by_country">By country</string>
+    <string name="year">Year</string>
+    <string name="cvv">Cvv</string>
+    <string name="prepaid">Prepaid</string>
+    <string name="Ifsc">Ifsc</string>
+    <string name="copied">Copied</string>
+
+    <string name="mastercard">
+<a href="https://www.mastercard.co.in/en-in/business/issuers/products-and-solutions/simplified-bin-account-range-table.html">Mastercard Bins</a>
+</string>
+    <string name="luhn">
+<a href="https://en.wikipedia.org/wiki/Luhn_algorithm">Luhn algorithm</a>
+</string>
+    <string name="pan">
+<a href="https://en.wikipedia.org/wiki/Payment_card_number">Payment card number or BIN</a>
+</string>
+    <string name="cardvalidator">
+<a href="https://github.com/stripe/stripe-android/blob/master/payments-model/src/main/java/com/stripe/android/model/CardBrand.kt">Credit card validator</a>
+</string>
+
+
+    <string name="no_more_results">No more results</string>
+
+
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+
+    <string-array name="arrType">
+        <item>Charge</item>
+        <item>Credit</item>
+        <item>Debit</item>
+        <item>Unknown</item>
+        <item>null</item>
+    </string-array>
+
+    <string-array name="arrNetwork">
+        <item>Network</item>
+        <item>American Express</item>
+        <item>ATM CARD</item>
+        <item>ATOS PRIVATE LABEL</item>
+        <item>AURA</item>
+        <item>BP FUEL CARD</item>
+        <item>Cabal</item>
+        <item>CARNET</item>
+        <item>CHJONES FUEL CARD</item>
+        <item>Cirrus ®</item>
+        <item>COMPROCARD</item>
+        <item>Dankort</item>
+        <item>Debit MasterCard ®</item>
+        <item>DINACARD</item>
+        <item>Diners Club International</item>
+        <item>Discover</item>
+        <item>DUET</item>
+        <item>EBT</item>
+        <item>EFTPOS</item>
+        <item>Elo</item>
+        <item>EUROSHELL FUEL CARD</item>
+        <item>FUEL CARD</item>
+        <item>GE CAPITAL</item>
+        <item>GLOBAL BC</item>
+        <item>Hipercard</item>
+        <item>HRG STORE CARD</item>
+        <item>Jcb</item>
+        <item>Local Brand</item>
+        <item>LOYALTY CARD</item>
+        <item>LUKOIL FUEL CARD</item>
+        <item>Maestro ®</item>
+        <item>MasterCard® Credit</item>
+        <item>Mir</item>
+        <item>NEWDAY</item>
+        <item>NSPK MIR</item>
+        <item>OUROCARD</item>
+        <item>PHH FUEL CARD</item>
+        <item>PRIVATE LABEL</item>
+        <item>PRIVATE LABEL CARD</item>
+        <item>RBS GIFT CARD</item>
+        <item>RED FUEL CARD</item>
+        <item>RED LIQUID FUEL CARD</item>
+        <item>RuPay</item>
+        <item>SBERCARD</item>
+        <item>SODEXO</item>
+        <item>STAR REWARDS</item>
+        <item>Tarjeta Naranja</item>
+        <item>TROY</item>
+        <item>Uatp</item>
+        <item>UK FUEL CARD</item>
+        <item>UnionPay</item>
+        <item>UNKNOWN</item>
+        <item>V Pay</item>
+        <item>Verve</item>
+        <item>Visa</item>
+    </string-array>
+
+    <string-array name="arrProduct">
+        <item>Product</item>
+        <item>BUSINESS</item>
+        <item>CLASSIC</item>
+        <item>PERSONAL</item>
+        <item>STANDARD</item>
+        <item>GOLD</item>
+        <item>PREPAID</item>
+        <item>PLATINUM</item>
+        <item>ELECTRON</item>
+        <item>Mastercard Standard</item>
+        <item>UATP</item>
+        <item>PROPRIETARY</item>
+        <item>Debit MasterCard</item>
+        <item>Debit MasterCard (enhanced)</item>
+        <item>Platinum MasterCard</item>
+        <item>Gold MasterCard</item>
+        <item>Debit MasterCard BusinessCard Card</item>
+        <item>Maestro Card</item>
+        <item>MasterCard BusinessCard Card</item>
+        <item>CORPORATE</item>
+        <item>PURCHASING</item>
+        <item>CORPORATE T&amp;E</item>
+        <item>Mixed Product</item>
+        <item>INFINITE</item>
+        <item>World MasterCard Card</item>
+        <item>Prepaid MasterCard Card</item>
+        <item>SIGNATURE</item>
+        <item>REWARDS</item>
+        <item>ATM</item>
+        <item>MasterCard Corporate Card</item>
+        <item>PREPAID BUSINESS</item>
+        <item>GIFT</item>
+        <item>PREPAID RELOADABLE</item>
+        <item>Debit MasterCard Unembossed</item>
+        <item>Debit Platinum MasterCard</item>
+        <item>MasterCard HSA Non</item>
+        <item>WORLD</item>
+        <item>V PAY</item>
+        <item>Prepaid MasterCard General Spend Card</item>
+        <item>Prepaid MasterCard Unembossed</item>
+        <item>Titanium MasterCard</item>
+        <item>Business Debit MasterCard</item>
+        <item>PREPAID ELECTRON</item>
+        <item>Mastercard Corporate Purchasing Card</item>
+        <item>Prepaid MasterCard BusinessCard Card</item>
+        <item>MasterCard Black</item>
+        <item>World Debit MasterCard Embossed</item>
+        <item>World Elite MasterCard Card</item>
+        <item>CORPORATE GREEN CHARGE</item>
+        <item>Cirrus Card</item>
+        <item>PERSONAL GREEN CHARGE</item>
+        <item>PERSONAL REVOLVE</item>
+        <item>Debit Gold MasterCard</item>
+        <item>MasterCard Corporate Fleet Card</item>
+        <item>OPTIMA</item>
+        <item>COMPANY</item>
+        <item>PERSONAL GREEN REVOLVE</item>
+        <item>ENHANCED</item>
+        <item>MasterCard Executive BusinessCard Card</item>
+        <item>MasterCard B2B Product 1</item>
+        <item>CONSUMER LENDING</item>
+        <item>MasterCard Corporate Executive Card</item>
+        <item>VOUCHER</item>
+        <item>MasterCard Unembossed Card</item>
+        <item>MasterCard Prepaid Platinum Travel Card</item>
+        <item>PERSONAL CHARGE</item>
+        <item>Prepaid MasterCard Gift Card</item>
+        <item>TITANIUM</item>
+        <item>CONSUMER</item>
+        <item>FLEET</item>
+        <item>PERSONAL GOLD CHARGE</item>
+        <item>MasterCard Salary Platinum</item>
+        <item>Private Label</item>
+        <item>World Elite Debit MasterCard</item>
+        <item>GOLD/PLATINUM</item>
+        <item>World MasterCard Black Edition</item>
+        <item>LOWES CARD</item>
+        <item>Titanium Debit MasterCard</item>
+        <item>IKEA CARD</item>
+        <item>PIN ONLY W/O EBT</item>
+        <item>World MasterCard for Business</item>
+        <item>CONSUMER REVOLVE</item>
+        <item>ICARD</item>
+        <item>Prepaid MasterCard Payroll Card</item>
+        <item>CCSG LENDING</item>
+        <item>Prepaid MasterCard Workplace B2B Solutions</item>
+        <item>SEARS</item>
+        <item>PREPAID TRAVEL MONEY</item>
+        <item>MasterCard Preferred BusinessCard Card</item>
+        <item>WORLD BLACK</item>
+        <item>World Elite Mastercard for Business</item>
+        <item>CONSUMER CHARGE</item>
+        <item>BLACK</item>
+        <item>ALIMENTACAO</item>
+        <item>PERSONAL GOLD REVOLVE</item>
+        <item>BUSINESS SIGNATURE</item>
+        <item>GRCC</item>
+        <item>PERSONAL BLUE REVOLVE</item>
+        <item>PURCHASING WITH FLEET</item>
+        <item>WORLD ELITE</item>
+        <item>PERSONAL PLATINUM REVOLVE</item>
+        <item>PERSONAL/GOLD</item>
+        <item>ELECTRONIC</item>
+        <item>STANDARD UNEMBOSSED</item>
+        <item>Prepaid MasterCard Consumer Incentive Card</item>
+        <item>MasterCard Central Travel Solutions Air</item>
+        <item>Prepaid MasterCard Flex Benefit Card</item>
+        <item>REVOLVE</item>
+        <item>COMPANY REVOLVE</item>
+        <item>MasterCard Micro</item>
+        <item>PERSONAL PLATINUM CHARGE</item>
+        <item>PREPAID HEALTHCARE</item>
+        <item>Mastercard World Business Debit</item>
+        <item>PREPAID PAYROLL</item>
+        <item>PREMIUM</item>
+        <item>PERSONAL GREEN PREPAID</item>
+        <item>Prepaid MasterCard Government Card</item>
+        <item>BLUE AIRMILES CASH BACK CARD</item>
+        <item>FOOD CARD</item>
+        <item>FSA-INVALID</item>
+        <item>GPP</item>
+        <item>MasterCard Corporate Prepaid</item>
+        <item>PERSONAL/ COMPANY</item>
+        <item>Prepaid MasterCard Consumer Card</item>
+        <item>RELOADABLE PREPAID</item>
+        <item>INDIVIDUAL</item>
+        <item>World Elite Mastercard</item>
+        <item>World MasterCard</item>
+        <item>MasterCard HSA Substantiated</item>
+        <item>PREPAID CASH</item>
+        <item>MasterCard Corporate World Card</item>
+        <item>CIRRUS</item>
+        <item>COMMERCIAL</item>
+        <item>GOVERNMENT COMMERCIAL</item>
+        <item>PREPAID PLATINUM</item>
+        <item>Standard Deferred</item>
+        <item>B2B</item>
+        <item>BASICO</item>
+        <item>DEBIT</item>
+        <item>GNS PLATINUM CHARGE</item>
+        <item>Prepaid MasterCard Employee Incentive Card</item>
+        <item>CCSG US CONSUMER REVOLVE</item>
+        <item>CORPORATE NETWORK CARD</item>
+        <item>MasterCard Government Commercial Card</item>
+        <item>OPEN CHARGE</item>
+        <item>Premium Debit MasterCard</item>
+        <item>REVOLVE (CONSUMER / SBS)</item>
+        <item>BASIC</item>
+        <item>CORPORATE CARD</item>
+        <item>GREEN</item>
+        <item>MasterCard Unembossed</item>
+        <item>GSA CORPORATE T&amp;E</item>
+        <item>PERSONAL BLACK CHARGE</item>
+        <item>STANDARD/WORLD</item>
+        <item>VIRTUAL</item>
+        <item>GRMS CORPORATE CONTROL</item>
+        <item>HSA NON SUBSTANTIATED</item>
+        <item>MasterCard B2B Product 5</item>
+        <item>OPEN GREEN REVOLVE</item>
+        <item>Q-CASH</item>
+        <item>HYUNDAI CARD</item>
+        <item>MasterCard Professional Card</item>
+        <item>WORLD FOR BUSINESS</item>
+        <item>CORPORATE FLEET GSA</item>
+        <item>MasterCard B2B Product 6</item>
+        <item>PREPAID GOLD</item>
+        <item>STANDARD/GOLD</item>
+        <item>AARP</item>
+        <item>CORPORATE PURCHASING</item>
+        <item>CREDIT</item>
+        <item>Debit MasterCard Other Programs</item>
+        <item>Debit MasterCard Professional Card</item>
+        <item>Maestro-branded Prepaid consumer programs issued in Europe</item>
+        <item>MasterCard B2B Product 2</item>
+        <item>MasterCard B2B Product 4</item>
+        <item>MasterCard Central Travel Solutions Land</item>
+        <item>MasterCard Electronic</item>
+        <item>OTHER</item>
+        <item>GRCC PLATINUM</item>
+        <item>MasterCard B2B Product 3</item>
+        <item>MasterCard Distribution Card</item>
+        <item>BLUE CASHBACK</item>
+        <item>CANADIAN CD</item>
+        <item>CONSUMER LIMITS EXPANSION</item>
+        <item>CORPORATE EXECUTIVE</item>
+        <item>CORPORATE FLEET</item>
+        <item>GEN CARD NUMBERS</item>
+        <item>GNS GREEN CHARGE</item>
+        <item>GOLD/STANDARD</item>
+        <item>GOVERNMENT (CORPORATE)</item>
+        <item>LAROC INTERNATIONAL CORPORATE</item>
+        <item>LOTTE CARD</item>
+        <item>MasterCard Healthcare Prepaid Non</item>
+        <item>MULTIPLO</item>
+        <item>OPEN LENDING</item>
+        <item>OUR CARD</item>
+        <item>PERSONAL/GRCC</item>
+        <item>SMALL CORPORATE</item>
+        <item>SUMIGIN GOLD</item>
+        <item>TRIUMPH - SBS LIMITS</item>
+        <item>ULTRA HIGH NET WORTH</item>
+        <item>UNITED AIRLINES CORPORATE CARD-(RHAPSODY)</item>
+        <item>World MasterCard Rewards</item>
+        <item>AUTO</item>
+        <item>CENTURION</item>
+        <item>CREDIT COEMITIDA</item>
+        <item>EXECUTIVE</item>
+        <item>GLOBAL PAYMENT</item>
+        <item>GRCC GREEN</item>
+        <item>MasterCard Platinum Prepaid Travel</item>
+        <item>Platinum Mastercard Prepaid General Spend</item>
+        <item>WORLD CARD</item>
+        <item>CORPORATE GREEN CHARGE GE VPAYMENT</item>
+        <item>CORPORATE T &amp; E</item>
+        <item>DEFERRED DEBIT</item>
+        <item>ISIC MasterCard Prepaid Student Card</item>
+        <item>MASTERMONEY</item>
+        <item>OPEN GOLD REVOLVE</item>
+        <item>PERSONAL/GOLD/COMPANY</item>
+        <item>PLATINUM REWARDS</item>
+        <item>QUANTUM</item>
+        <item>SALUTE</item>
+        <item>SAMSUNG CARD</item>
+        <item>VPAY</item>
+        <item>WORLD BLACK EDITION</item>
+        <item>CONSUMER REVOLVE (CO-BRAND)</item>
+        <item>CORPORATE FLEET CARD</item>
+        <item>GOLD GRCC</item>
+        <item>GOLD REVOLVE</item>
+        <item>GRAFITE</item>
+        <item>Mastercard Prepaid Gold Payroll</item>
+        <item>PAYPASS</item>
+        <item>PERSONAL/BLUE</item>
+        <item>PREPAID AWARDS</item>
+        <item>SHINHAN CARD</item>
+        <item>STANDARD/ENHANCED</item>
+        <item>World Debit MasterCard Rewards</item>
+        <item>BLUE REVOLVE</item>
+        <item>CULTURA</item>
+        <item>ELO MAIS</item>
+        <item>FLEET CARD</item>
+        <item>GRCC GOLD</item>
+        <item>GREEN GRCC</item>
+        <item>GSA PURCHASING</item>
+        <item>MAESTRO SMALL BUSINESS</item>
+        <item>NH PLATINUM</item>
+        <item>OPEN GREEN CHARGE</item>
+        <item>PERSONAL GREEN/GOLD GRCC</item>
+        <item>Prepaid MasterCard Commercial Card</item>
+        <item>Prepaid MasterCard Insurance Card</item>
+        <item>Prepaid MasterCard Other Card</item>
+        <item>Prepaid MasterCard Travel Card</item>
+        <item>PREPAID VIRTUAL</item>
+        <item>REVOLVE-CLASSIC/BLUE</item>
+        <item>WORLD SIGNIA</item>
+        <item>ACCOR CO-BRAND</item>
+        <item>ARGENTINA GRCC</item>
+        <item>BLUE</item>
+        <item>BUSINESS INFINITE</item>
+        <item>CHARGE CARD</item>
+        <item>CITI CARDS</item>
+        <item>DIGITAL PLATINUM</item>
+        <item>EXECUTIVE CORPORATE</item>
+        <item>GM CARD</item>
+        <item>INVALID</item>
+        <item>KB KOOKMIN CARD</item>
+        <item>MasterCard Brazil Prepaid Benefits</item>
+        <item>Platinum Debit Mastercard Prepaid General Spend</item>
+        <item>PLATINUM/STANDARD</item>
+        <item>Bill Pay Commercial</item>
+        <item>BUSINESS ENHANCED</item>
+        <item>BUSINESS WORLD</item>
+        <item>BUSINESS WORLD ELITE</item>
+        <item>BUSINESS/CLASSIC</item>
+        <item>CANADA CHARGE CARD</item>
+        <item>CANADA CHARGE CARD - GRCC</item>
+        <item>COMPANY GOLD</item>
+        <item>CONSUMER CARD</item>
+        <item>CORPORATE CO-BRAND CHARGE</item>
+        <item>CORPORATE GOLD</item>
+        <item>CORPORATE GREEN REVOLVE</item>
+        <item>CORPORATE PLATINUM CHARGE</item>
+        <item>DELAYED DEBIT</item>
+        <item>EMPRESARIAL</item>
+        <item>GNS GOLD CHARGE</item>
+        <item>GOLD IMMEDIATE DEBIT</item>
+        <item>GOLD/WORLD</item>
+        <item>GRCC BLUE</item>
+        <item>GSA PURCHASING WITH FLEET</item>
+        <item>HSA NON-SUBSTANTIATED</item>
+        <item>MAESTRO</item>
+        <item>Mastercard Prepaid Business Preferred</item>
+        <item>MasterCard Public Sector Commercial Card</item>
+        <item>Mastercard Shop &amp; Split Premium</item>
+        <item>NH NONGHYUP BC CARD</item>
+        <item>PURCHASING CARD</item>
+        <item>STANDARD/GOLD/PLATINUM</item>
+        <item>WORLD BUSINESS</item>
+        <item>WORLD ELITE BUSINESS</item>
+        <item>World Prepaid Debit</item>
+        <item>WORLD REWARDS</item>
+        <item>ATM CARD</item>
+        <item>BC CARD</item>
+        <item>BLUE CHARGE</item>
+        <item>BUSAN BC CARD</item>
+        <item>CLASSIC/GOLD</item>
+        <item>CORPORATE GOLD CHARGE</item>
+        <item>ELECTRONIC BUSINESS</item>
+        <item>EXECUTIVE BUSINESS</item>
+        <item>GRCC (REVOLVING)</item>
+        <item>GREEN/GOLD</item>
+        <item>GYEONGNAM BC CARD</item>
+        <item>HANA CARD</item>
+        <item>HSA SUBSTANTIATED</item>
+        <item>INFINITE/PLATINUM</item>
+        <item>ISIC Debit MasterCard Student Card</item>
+        <item>ISIC MasterCard Student Card</item>
+        <item>Mastercard Prepaid Commercial Payment Account</item>
+        <item>Mastercard Prepaid Consumer</item>
+        <item>MasterCard Prepaid Embossed</item>
+        <item>MICRO BUSINESS</item>
+        <item>NH CARD</item>
+        <item>OPEN GOLD CHARGE</item>
+        <item>PAGAMENTO FORNECEDORES</item>
+        <item>PAYPASS CARD</item>
+        <item>PERSONAL BLUE CHARGE</item>
+        <item>PREMIER</item>
+        <item>PREPAID GOVERNMENT</item>
+        <item>Prepaid MasterCard Voucher Meal/Food Card</item>
+        <item>Private Label Trade Program</item>
+        <item>SC BC CARD</item>
+        <item>SHINHAN CARD - CHECK</item>
+        <item>SHINHAN CARD - CORPORATE</item>
+        <item>STANDARD/PLATINUM/WORLD</item>
+        <item>STANDARD/PREPAID</item>
+        <item>World Elite Exclusive</item>
+        <item>AGRO</item>
+        <item>BUSAN BANK BC CARD</item>
+        <item>BUSINESS/STANDARD</item>
+        <item>CHUFA CARD</item>
+        <item>COMPRAS</item>
+        <item>CORPORATE GOLD REVOLVE</item>
+        <item>CORPORATE SINGLE CURRENCY</item>
+        <item>CORPORATIVO</item>
+        <item>DAEGU BC CARD</item>
+        <item>DIGITAL GOLD</item>
+        <item>DIGITAL MASTERCARD BLACK</item>
+        <item>DIGITAL STANDARD</item>
+        <item>EUROPEAN REGULATED INDIVIDUAL PAY</item>
+        <item>GNS NETWORK CARD</item>
+        <item>GOLD/WORLD ELITE</item>
+        <item>GRCC LOC</item>
+        <item>GREEN/BLUE</item>
+        <item>GSA</item>
+        <item>GUANGZHOU CREDIT</item>
+        <item>HELOC Standard MasterCard</item>
+        <item>IBK BC CARD</item>
+        <item>IMMEDIATE DEBIT</item>
+        <item>JEONBUK CARD</item>
+        <item>KB NATIONAL BC CARD</item>
+        <item>LINE OF CREDIT</item>
+        <item>Mastercard Corporate World Elite Card</item>
+        <item>MasterCard Electronic BusinessCard Card</item>
+        <item>NANQUIM</item>
+        <item>NEW WORLD</item>
+        <item>NH CHECK CARD</item>
+        <item>NH CORPORATE CARD</item>
+        <item>ONE CORPORATE CARD</item>
+        <item>OPEN PLATINUM REVOLVE</item>
+        <item>OUR CHECK CARD</item>
+        <item>PERSONAL LOAN PRODUCTS</item>
+        <item>Platinum Debit MasterCard Unembossed</item>
+        <item>PLATINUM/GOLD</item>
+        <item>PLATINUM/TITANIUM</item>
+        <item>PLATINUM/WORLD</item>
+        <item>PREPAID CORPORATE</item>
+        <item>PREPAID EMPLOYEE INCENTIVE</item>
+        <item>PREPAID FSA</item>
+        <item>Prepaid MasterCard Electronic Card</item>
+        <item>PREPAID PLATINUM TRAVEL</item>
+        <item>PREPAID PRIVATE LABEL</item>
+        <item>REWARD</item>
+        <item>SAMSUNG CHECK CARD</item>
+        <item>SBS GOLD CHARGE</item>
+        <item>SELECT</item>
+        <item>SHINHAN BC CHECK</item>
+        <item>STANDARD/BUSINESS</item>
+        <item>STANDARD/GOLD/TITANIUM</item>
+        <item>STANDARD/PLATINUM</item>
+        <item>World MasterCard Black Edition</item>
+        <item>WORLD/GOLD</item>
+        <item>WORLD/PLATINUM</item>
+        <item>AADVANTAGE</item>
+        <item>ACH for Consumer</item>
+        <item>AIRMILES PREMIER</item>
+        <item>BLUE CASH</item>
+        <item>BLUE FOR BUSINESS</item>
+        <item>BNDES</item>
+        <item>BUSAN BC CHECK</item>
+        <item>BUSINES</item>
+        <item>BUSINESS ELITE</item>
+        <item>BUSINESS EXECUTIVE</item>
+        <item>BUSINESS PLATINUM</item>
+        <item>CHARGE</item>
+        <item>CITIBANK CARD</item>
+        <item>CLASSIC/PLATINUM</item>
+        <item>CLASSIC/SIGNATURE</item>
+        <item>CO-BRAND</item>
+        <item>COMMERCIAL PAYMENT ACCOUNT</item>
+        <item>COMMERCIAL PAYMENTS ACCOUNT</item>
+        <item>CONSTRUCARD</item>
+        <item>CORP-GOLD</item>
+        <item>CORPORATE BLACK CHARGE</item>
+        <item>CORPORATE CO- BRAND</item>
+        <item>CORPORATE COBRAND</item>
+        <item>CORPORATE GREEN CORPORATE GOLD</item>
+        <item>CORPORATE PLATINUM REVOLVE</item>
+        <item>CORPORATE PRODUCT</item>
+        <item>CORPORATE- COBRAND</item>
+        <item>CORPORATE/BUSINESS</item>
+        <item>CORPORATE/INFINITE</item>
+        <item>DAEGU BC CHECK</item>
+        <item>DELTA REWARDS</item>
+        <item>DIAMOND</item>
+        <item>Digital Enablement Program</item>
+        <item>DISTRIBUTION</item>
+        <item>ELECTRIC ORANGE</item>
+        <item>ELECTRONIC COMMERCIAL</item>
+        <item>EXPRESSPAY DIRECT LINK</item>
+        <item>FLEET/BUSINESS</item>
+        <item>FLEET/BUSINESSCARD</item>
+        <item>GNS PREPAID</item>
+        <item>GOLD/CORPORATE</item>
+        <item>GOLD/INFINITE/PLATINUM</item>
+        <item>GOLD/STANDARD/PLATINUM</item>
+        <item>GOLD/TITANIUM</item>
+        <item>GOLD/TITANIUM/PLATINUM</item>
+        <item>GUANGZHOU CARD</item>
+        <item>HAN SKBC CARD</item>
+        <item>HAN SKBC CHECK</item>
+        <item>HEALTH SAVINGS</item>
+        <item>HELOC Platinum MasterCard</item>
+        <item>IBK BC CHECK</item>
+        <item>IBK COMPANIES BC</item>
+        <item>IBK INDUSTRIAL BANK</item>
+        <item>INFINITE PRIVILEGE</item>
+        <item>INFINITE/SIGNATURE</item>
+        <item>LOTTE CORPORATION</item>
+        <item>LOTTE PENTA</item>
+        <item>LOTTE WEAVER SKY</item>
+        <item>LOYALTY CARD</item>
+        <item>MAESTRO PREPAID VOUCHER MEAL AND FOOD CARD</item>
+        <item>MAESTRO/PREPAID MAESTRO CONSUMER PROMOTION CARD</item>
+        <item>MasterCard Agro</item>
+        <item>MasterCard Alimentacao (Food)</item>
+        <item>Mastercard B2B VIP 10</item>
+        <item>Mastercard B2B VIP 5</item>
+        <item>Mastercard Commercial Payment Account</item>
+        <item>MasterCard Commercial Reward Funding</item>
+        <item>Mastercard Enterprise Solutions</item>
+        <item>Mastercard Flex Prepaid</item>
+        <item>MASTERCARD MIXED</item>
+        <item>MasterCard Mixed Product</item>
+        <item>MasterCard Pedagio Prepaid Card</item>
+        <item>MasterCard Prepaid Voucher</item>
+        <item>MasterCard Refeicao (Meal)</item>
+        <item>MasterCard Rewards Only</item>
+        <item>NATIONAL CUP ENTERPRISE CARD</item>
+        <item>NEO CARD</item>
+        <item>NETWORK CARDS</item>
+        <item>NH NONGHYUP CHECK</item>
+        <item>ONE CARD</item>
+        <item>ONE CHECK CARD</item>
+        <item>ONE COMPANY CHECK</item>
+        <item>OPEN BLUE REVOLVE</item>
+        <item>PAYMENT CARD</item>
+        <item>PEONY</item>
+        <item>PEONY QUASI-CREDIT CARD</item>
+        <item>PERSONAL)</item>
+        <item>PERSONAL/COMPANY</item>
+        <item>PLATINIUM</item>
+        <item>PLATINUM CHARGE</item>
+        <item>PLATINUM IMMEDIATE DEBIT</item>
+        <item>PLATINUM/GOLD/STANDARD/TITANIUM MASTERCARD/WORLD</item>
+        <item>PLATINUM/MASTERCARD NEW WORLD</item>
+        <item>PLATINUM/MASTERCARD WORLD BLACK EDITION</item>
+        <item>PLATINUM/WORLD ELITE/WORLD</item>
+        <item>PLATINUM/WORLD/STANDARD</item>
+        <item>PLATINUM/WORLD/TITANIUM/BUSINESS</item>
+        <item>PREMIUM PLUS</item>
+        <item>PREPAGO</item>
+        <item>PREPAID CARD</item>
+        <item>PREPAID CORPORATE T&amp;E</item>
+        <item>PREPAID HORIZON CLASSIC</item>
+        <item>Prepaid MasterCard Teen Card</item>
+        <item>Prepaid MC Debit Voucher Meal/Food Card</item>
+        <item>Prepaid MC Public Sector Commercial Card</item>
+        <item>PREPAID V PAY</item>
+        <item>PRIORITY PLATINUM</item>
+        <item>PRIVATE LABEL HIPERCARD</item>
+        <item>PROFESSIONAL</item>
+        <item>PROPRIETARY/STANDARD</item>
+        <item>PROPRIETORY</item>
+        <item>PURCHASING/CORPORATE</item>
+        <item>REVOLVE-GOLD</item>
+        <item>SAMSUNG CHECK</item>
+        <item>SBS</item>
+        <item>SBS CHARGE</item>
+        <item>SBS GOLD</item>
+        <item>SBS GREEN</item>
+        <item>SC BC CHECK</item>
+        <item>SHINHAN BC CARD</item>
+        <item>SIGNATURE BUSINESS</item>
+        <item>SIGNATURE POINTS REWARDS</item>
+        <item>SMALL BUSINESS</item>
+        <item>STANDARD - UNEMBOSSED</item>
+        <item>STANDARD/GOLD/PLATINUM/WORLD</item>
+        <item>STANDARD/GOLD/WORLD</item>
+        <item>STANDARD/REWARDS/WORLD</item>
+        <item>STUDENT</item>
+        <item>TITANIUM MASTERCARD/WORLD/PLATINUM</item>
+        <item>TITANIUM/GOLD</item>
+        <item>TITANIUM/STANDARD</item>
+        <item>VIAGEM</item>
+        <item>World Debit Flex</item>
+        <item>WORLD ELITE CORPORATE</item>
+        <item>WORLD ELITE/STANDARD</item>
+        <item>World Maestro</item>
+        <item>WORLD/CORPORATE</item>
+        <item>WORLD/STANDARD/GOLD</item>
+    </string-array>
+
+
+    <string-array name="arrCountry">
+        <item>Afghanistan</item>
+        <item>Åland Islands</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>American Samoa</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antarctica</item>
+        <item>Antigua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bonaire, Sint Eustatius and Saba</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Bouvet Island</item>
+        <item>Brazil</item>
+        <item>British Indian Ocean Territory</item>
+        <item>British Virgin Islands</item>
+        <item>Brunei</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Cayman Islands</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Christmas Island</item>
+        <item>Cocos (Keeling) Islands</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Congo (DRC)</item>
+        <item>Congo (Republic)</item>
+        <item>Cook Islands</item>
+        <item>Costa Rica</item>
+        <item>Ivory Coast</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Curaçao</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Falkland Islands (Islas Malvinas)</item>
+        <item>Faroe Islands</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>French Guiana</item>
+        <item>French Polynesia</item>
+        <item>French Southern Territories</item>
+        <item>Gabon</item>
+        <item>Gambia</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Greece</item>
+        <item>Greenland</item>
+        <item>Grenada</item>
+        <item>Guadeloupe</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guernsey</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Heard Island and McDonald Islands</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Isle of Man</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jersey</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kiribati</item>
+        <item>Kosovo</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macau</item>
+        <item>Macedonia (FYROM)</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshall Islands</item>
+        <item>Martinique</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mayotte</item>
+        <item>Mexico</item>
+        <item>Micronesia</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Montserrat</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Myanmar (Burma)</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>New Caledonia</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Niue</item>
+        <item>Norfolk Island</item>
+        <item>North Korea</item>
+        <item>Northern Mariana Islands</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Palestinian Territories</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Pitcairn Islands</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Réunion</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Rwanda</item>
+        <item>Saint Barthélemy</item>
+        <item>Saint Helena</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Martin</item>
+        <item>Saint Pierre and Miquelon</item>
+        <item>Saint Vincent and the Grenadines</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>São Tomé and Príncipe</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Sint Maarten</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Georgia and the South Sandwich Islands</item>
+        <item>South Korea</item>
+        <item>South Sudan</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Svalbard and Jan Mayen</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>Timor-Leste</item>
+        <item>Togo</item>
+        <item>Tokelau</item>
+        <item>Tonga</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Turks and Caicos Islands</item>
+        <item>Tuvalu</item>
+        <item>U.S. Minor Outlying Islands</item>
+        <item>U.S. Virgin Islands</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Vanuatu</item>
+        <item>Vatican City</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Wallis and Futuna</item>
+        <item>Western Sahara</item>
+        <item>Yemen</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+
+    <string-array name="arrCode">
+        <item>AF</item>
+        <item>AX</item>
+        <item>AL</item>
+        <item>DZ</item>
+        <item>AS</item>
+        <item>AD</item>
+        <item>AO</item>
+        <item>AI</item>
+        <item>AQ</item>
+        <item>AG</item>
+        <item>AR</item>
+        <item>AM</item>
+        <item>AW</item>
+        <item>AU</item>
+        <item>AT</item>
+        <item>AZ</item>
+        <item>BS</item>
+        <item>BH</item>
+        <item>BD</item>
+        <item>BB</item>
+        <item>BY</item>
+        <item>BE</item>
+        <item>BZ</item>
+        <item>BJ</item>
+        <item>BM</item>
+        <item>BT</item>
+        <item>BO</item>
+        <item>BQ</item>
+        <item>BA</item>
+        <item>BW</item>
+        <item>BV</item>
+        <item>BR</item>
+        <item>IO</item>
+        <item>VG</item>
+        <item>BN</item>
+        <item>BG</item>
+        <item>BF</item>
+        <item>BI</item>
+        <item>KH</item>
+        <item>CM</item>
+        <item>CA</item>
+        <item>CV</item>
+        <item>KY</item>
+        <item>CF</item>
+        <item>TD</item>
+        <item>CL</item>
+        <item>CN</item>
+        <item>CX</item>
+        <item>CC</item>
+        <item>CO</item>
+        <item>KM</item>
+        <item>CD</item>
+        <item>CG</item>
+        <item>CK</item>
+        <item>CR</item>
+        <item>CI</item>
+        <item>HR</item>
+        <item>CU</item>
+        <item>CW</item>
+        <item>CY</item>
+        <item>CZ</item>
+        <item>DK</item>
+        <item>DJ</item>
+        <item>DM</item>
+        <item>DO</item>
+        <item>EC</item>
+        <item>EG</item>
+        <item>SV</item>
+        <item>GQ</item>
+        <item>ER</item>
+        <item>EE</item>
+        <item>ET</item>
+        <item>FK</item>
+        <item>FO</item>
+        <item>FJ</item>
+        <item>FI</item>
+        <item>FR</item>
+        <item>GF</item>
+        <item>PF</item>
+        <item>TF</item>
+        <item>GA</item>
+        <item>GM</item>
+        <item>GE</item>
+        <item>DE</item>
+        <item>GH</item>
+        <item>GI</item>
+        <item>GR</item>
+        <item>GL</item>
+        <item>GD</item>
+        <item>GP</item>
+        <item>GU</item>
+        <item>GT</item>
+        <item>GG</item>
+        <item>GN</item>
+        <item>GW</item>
+        <item>GY</item>
+        <item>HT</item>
+        <item>HM</item>
+        <item>HN</item>
+        <item>HK</item>
+        <item>HU</item>
+        <item>IS</item>
+        <item>IN</item>
+        <item>ID</item>
+        <item>IR</item>
+        <item>IQ</item>
+        <item>IE</item>
+        <item>IM</item>
+        <item>IL</item>
+        <item>IT</item>
+        <item>JM</item>
+        <item>JP</item>
+        <item>JE</item>
+        <item>JO</item>
+        <item>KZ</item>
+        <item>KE</item>
+        <item>KI</item>
+        <item>XK</item>
+        <item>KW</item>
+        <item>KG</item>
+        <item>LA</item>
+        <item>LV</item>
+        <item>LB</item>
+        <item>LS</item>
+        <item>LR</item>
+        <item>LY</item>
+        <item>LI</item>
+        <item>LT</item>
+        <item>LU</item>
+        <item>MO</item>
+        <item>MK</item>
+        <item>MG</item>
+        <item>MW</item>
+        <item>MY</item>
+        <item>MV</item>
+        <item>ML</item>
+        <item>MT</item>
+        <item>MH</item>
+        <item>MQ</item>
+        <item>MR</item>
+        <item>MU</item>
+        <item>YT</item>
+        <item>MX</item>
+        <item>FM</item>
+        <item>MD</item>
+        <item>MC</item>
+        <item>MN</item>
+        <item>ME</item>
+        <item>MS</item>
+        <item>MA</item>
+        <item>MZ</item>
+        <item>MM</item>
+        <item>NA</item>
+        <item>NR</item>
+        <item>NP</item>
+        <item>NL</item>
+        <item>NC</item>
+        <item>NZ</item>
+        <item>NI</item>
+        <item>NE</item>
+        <item>NG</item>
+        <item>NU</item>
+        <item>NF</item>
+        <item>KP</item>
+        <item>MP</item>
+        <item>NO</item>
+        <item>OM</item>
+        <item>PK</item>
+        <item>PW</item>
+        <item>PS</item>
+        <item>PA</item>
+        <item>PG</item>
+        <item>PY</item>
+        <item>PE</item>
+        <item>PH</item>
+        <item>PN</item>
+        <item>PL</item>
+        <item>PT</item>
+        <item>PR</item>
+        <item>QA</item>
+        <item>RE</item>
+        <item>RO</item>
+        <item>RU</item>
+        <item>RW</item>
+        <item>BL</item>
+        <item>SH</item>
+        <item>KN</item>
+        <item>LC</item>
+        <item>MF</item>
+        <item>PM</item>
+        <item>VC</item>
+        <item>WS</item>
+        <item>SM</item>
+        <item>ST</item>
+        <item>SA</item>
+        <item>SN</item>
+        <item>RS</item>
+        <item>SC</item>
+        <item>SL</item>
+        <item>SG</item>
+        <item>SX</item>
+        <item>SK</item>
+        <item>SI</item>
+        <item>SB</item>
+        <item>SO</item>
+        <item>ZA</item>
+        <item>GS</item>
+        <item>KR</item>
+        <item>SS</item>
+        <item>ES</item>
+        <item>LK</item>
+        <item>SD</item>
+        <item>SR</item>
+        <item>SJ</item>
+        <item>SZ</item>
+        <item>SE</item>
+        <item>CH</item>
+        <item>SY</item>
+        <item>TW</item>
+        <item>TJ</item>
+        <item>TZ</item>
+        <item>TH</item>
+        <item>TL</item>
+        <item>TG</item>
+        <item>TK</item>
+        <item>TO</item>
+        <item>TT</item>
+        <item>TN</item>
+        <item>TR</item>
+        <item>TM</item>
+        <item>TC</item>
+        <item>TV</item>
+        <item>UM</item>
+        <item>VI</item>
+        <item>UG</item>
+        <item>UA</item>
+        <item>AE</item>
+        <item>GB</item>
+        <item>US</item>
+        <item>UY</item>
+        <item>UZ</item>
+        <item>VU</item>
+        <item>VA</item>
+        <item>VE</item>
+        <item>VN</item>
+        <item>WF</item>
+        <item>EH</item>
+        <item>YE</item>
+        <item>ZM</item>
+        <item>ZW</item>
+    </string-array>
+
+    <string name="add">Request Review</string>
+
+    <string name="edit">Edit</string>
+    <string name="network">Network</string>
+    <string name="product_name">Product Name</string>
+    <string name="issuer">Issuer</string>
+    <string name="debit">Debit</string>
+    <string name="credit">Credit</string>
+    <string name="unknown">Unknown</string>
+    <string name="private_label">Private Label</string>
+    <string name="charge">Charge</string>
+    <string name="geo_details">Geo Details</string>
+    <string name="ip">IP</string>
+    <string name="asn_info">Asn Info</string>
+    <string name="bad_behavior">Bad Behavior</string>
+    <string name="frequency">Frequency</string>
+    <string name="appeared">Appeared</string>
+    <string name="datacenter">Datacenter</string>
+    <string name="tags">Tags</string>
+    <string name="hostnames">Hostnames</string>
+    <string name="rir">RIR</string>
+    <string name="is_datacenter">Is Datacenter</string>
+    <string name="is_tor">Is Tor</string>
+    <string name="is_proxy">Is Proxy</string>
+    <string name="is_abuser">Is Abuser</string>
+    <string name="asn_description">ASN Description</string>
+    <string name="abuse_email">Abuse Email</string>
+    <string name="more">More</string>
+    <string name="more_info">More Info</string>
+    <string name="retry">Retry</string>
+    <string name="no_data_available">No Data Available</string>
+    <string name="_3">3</string>
+    <string name="capital">Capital</string>
+    <string name="time_zones">Time Zones</string>
+    <string name="is_this_helpful">Was this helpful?</string>
+    <string name="why">Any Other Comments</string>
+    <string name="source">Source</string>
+    <string name="filter">Filter</string>
+    <string name="search">Find</string>
+    <string name="delete">Clear History</string>
+    <string name="any_notes">Additional Information</string>
+    <string name="india">India</string>
+    <string name="required">Required</string>
+    <string name="bins">Bins</string>
+    <string name="favorite">Favorite</string>
+    <string name="device">Device</string>
+    <string name="Null">NULL</string>
+    <string name="apply">Apply</string>
+    <string name="format">Format</string>
+    <string name="total">Total</string>
+    <string name="_100">100</string>
+    <string name="_4">4</string>
+    <string name="_16">16</string>
+    <string name="_pipe">|</string>
+    <string name="_1000">1000</string>
+
+    <string name="lookup_header">Lookup</string>
+
+
+    <string name="show_timezone">Show Timezones</string>
+    <string name="timezone_summary">If enabled, the timezone will be displayed in the BIN lookup.</string>
+    <string name="seon">Seon.io</string>
+    <string name="use_seon_api">Use Seon.io API</string>
+    <string name="use_seon_api_summary">If enabled, the request will go to the api endpoint with key.</string>
+    <string name="seon_api_key">Seon.io API Key</string>
+    <string name="less">Less</string>
+    <string name="range">BIN Range</string>
+    <string name="headquarters">Headquarters</string>
+    <string name="email">Email</string>
+    <string name="issuerPhone">Phone</string>
+    <string name="general">General</string>
+    <string name="enable_developer_options">Enable Developer Options</string>
+    <string name="show_developer_options_summary">If checked, the developer options will be shown</string>
+    <string name="gender">Gender</string>
+    <string name="shuffle">Shuffle</string>
+
+
+    <string name="enableAnalytics">Enable Analytics</string>
+    <string name="enableAnalyticsSummary">If enabled, the app will send Seon.io data to the developer for optimization.</string>
+
+    <string name="text_menu">Menu</string>
+
+
+</resources>

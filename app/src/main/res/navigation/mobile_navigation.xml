@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/lookup">
+    <include app:graph="@navigation/lookup" />
+    <include app:graph="@navigation/save" />
+
+    <fragment
+        android:id="@+id/singleFragment"
+        android:name="com.assets.binfinder.ui.single.SingleFragment"
+        android:label="Single"
+        tools:layout="@layout/fragment_single">
+        <argument
+            android:name="bin"
+            android:defaultValue="1L"
+            app:argType="long" />
+
+
+    </fragment>
+    <action
+        android:id="@+id/action_global_singleFragment"
+        app:destination="@id/singleFragment"
+        app:popUpToSaveState="true"
+        app:restoreState="true" />
+
+</navigation>

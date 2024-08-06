@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lookup"
+    app:startDestination="@id/lookupFragment">
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.assets.binfinder.MenuFragment"
+        android:label="fragment_menu"
+
+        tools:layout="@layout/fragment_menu">
+
+        <action
+            android:id="@+id/action_menuFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/lookupFragment"
+        android:name="com.assets.binfinder.ui.lookup.LookupFragment"
+        android:label="Lookup"
+        tools:layout="@layout/fragment_lookup">
+
+
+        <action
+            android:id="@+id/action_lookup_to_multipleFragment"
+            app:destination="@id/multipleFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+        <action
+            android:id="@+id/action_lookupFragment_to_binchekrFragment"
+            app:destination="@id/binchekrFragment" />
+        <action
+            android:id="@+id/action_lookupFragment_to_binlistResponseDialog"
+            app:destination="@id/binlistResponseDialog" />
+        <action
+            android:id="@+id/action_lookupFragment_to_bulkRecyclerFragment"
+            app:destination="@id/bulkRecyclerFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_lookupFragment_to_ipResponseDialog"
+            app:destination="@id/ipResponseDialog" />
+        <action
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            android:id="@+id/action_lookupFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
+        <action
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            android:id="@+id/action_lookupFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/binchekrFragment"
+        android:name="com.assets.binfinder.ui.binchekr.Binchekr"
+        android:label="fragment_binchekr"
+        tools:layout="@layout/fragment_binchekr" />
+    <fragment
+        android:id="@+id/multipleFragment"
+        android:name="com.assets.binfinder.ui.binchekr.Multiple"
+        android:label="Multiple"
+        tools:layout="@layout/fragment_multiple">
+
+        <argument
+            android:name="bin"
+            android:defaultValue="1L"
+            app:argType="long" />
+        <argument
+            android:name="type"
+            android:defaultValue="null"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="network"
+            android:defaultValue="null"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="product_name"
+            android:defaultValue="null"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="issuer"
+            android:defaultValue="null"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="country"
+            android:defaultValue="null"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="uuid"
+            android:defaultValue="null" />
+        <argument
+            android:name="page"
+            android:defaultValue="1"
+            app:argType="integer" />
+
+    </fragment>
+
+
+    <dialog
+        android:id="@+id/binlistResponseDialog"
+        android:name="com.assets.binfinder.ui.binlist.BinlistResponse"
+        android:label="fragment_binlist_response"
+        tools:layout="@layout/fragment_binlist_response">
+        <argument
+            android:name="bin"
+            app:argType="long" />
+    </dialog>
+    <dialog
+        android:id="@+id/ipResponseDialog"
+        android:name="com.assets.binfinder.ui.ip.IpResponse"
+        android:label="fragment_ip_response"
+        tools:layout="@layout/fragment_ip_response">
+        <argument
+            android:name="ip"
+            app:argType="string" />
+    </dialog>
+
+    <fragment
+        android:id="@+id/bulkRecyclerFragment"
+        android:name="com.assets.binfinder.ui.bulk.BulkRecycler"
+        android:label="fragment_bulk_recycler"
+        tools:layout="@layout/fragment_bulk_recycler">
+        <argument
+            android:name="bins"
+            app:argType="long[]" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.assets.binfinder.SettingsFragment"
+        android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.assets.binfinder.ui.about.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.assets.binfinder.ui.history.HistoryFragment"
+        android:label="History"
+        tools:layout="@layout/fragment_history">
+
+    </fragment>
+</navigation>

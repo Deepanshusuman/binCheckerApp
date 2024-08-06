@@ -1,0 +1,129 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.215" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/background.xml" value="0.1915" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_baseline_account_balance_24.xml" value="0.2135" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.215" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.215" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.215" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_baseline_expand_less_24.xml" value="0.141" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_baseline_expand_more_24.xml" value="0.141" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_baseline_filter_list_24.xml" value="0.215" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_baseline_map_24.xml" value="0.215" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.215" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_baseline_shop_24.xml" value="0.215" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.215" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_error.xml" value="0.1405" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.215" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_launcher_background.xml" value="0.215" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.215" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_outline_account_circle_24.xml" value="0.215" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_outline_credit_card_24.xml" value="0.215" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_outline_difference_24.xml" value="0.215" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_outline_report_24.xml" value="0.215" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_right.xml" value="0.124" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_round_check_24.xml" value="0.215" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_round_close_24.xml" value="0.215" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_round_cloud_off_24.xml" value="0.215" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_round_favorite_24.xml" value="0.215" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_round_favorite_border_24.xml" value="0.215" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_round_history_24.xml" value="0.215" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_round_search_24.xml" value="0.1895" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_round_settings_24.xml" value="0.215" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_round_trending_up_24.xml" value="0.124" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_round_upgrade_24.xml" value="0.215" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/ic_wrong.xml" value="0.124" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/slide_down.xml" value="0.2115" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/drawable/slide_up.xml" value="0.2115" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/activity_main2.xml" value="0.24010416666666667" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/activity_searchable.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/binchekr_multiple_item.xml" value="0.3440702781844802" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/card.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_about.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_account.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_add.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_adda_bin.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_binchekr.xml" value="0.2175925925925926" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_binlist.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_binlist_response.xml" value="0.136" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_dashboard.xml" value="0.11302083333333333" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_edit.xml" value="0.4" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_filter.xml" value="0.2175925925925926" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_global.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_history.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_ifsc.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_ip.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_ip_response.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_item_list.xml" value="0.24010416666666667" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_login.xml" value="0.24010416666666667" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_login2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_lookup.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_main.xml" value="0.11302083333333333" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_multiple.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_notifications.xml" value="0.11302083333333333" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_recent.xml" value="0.1925925925925926" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_report.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_restore.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_saved.xml" value="0.16799999999999998" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_saved_list_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_seon.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_seon_response.xml" value="0.11302083333333333" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_seon_result.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_single.xml" value="0.1" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_single2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_upgrade.xml" value="0.11302083333333333" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_validate.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_validate_response.xml" value="0.24010416666666667" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/fragment_webview.xml" value="0.24010416666666667" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/history_child_row.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/history_date_row.xml" value="0.253125" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/history_item_row.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/loader_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/recent_item_list.xml" value="0.23854166666666668" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/layout/saved_item_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/menu/bottom_nav_menu.xml" value="0.11302083333333333" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/menu/filter_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/menu/saved_list_details_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/menu/saved_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/menu/single_app_bar_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/menu/single_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/menu/top_app_bar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1675" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/xml/root_preferences.xml" value="0.22037037037037038" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/xml/searchable.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio/BinChecker/app/src/main/res/xml/shortcuts.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Deepanshu/AndroidStudioProjects/BinChecker/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="EntryPointsManager">
+    <entry_points version="2.0">
+      <entry_point TYPE="field" FQNAME="com.assets.binchecker.ui.saved.Edit binding" />
+      <entry_point TYPE="field" FQNAME="com.assets.binchecker.ui.saved.Edit savedViewModel" />
+    </entry_points>
+    <pattern value="com.assets.binchecker.ui.saved.Edit" method="check" />
+    <pattern value="com.assets.binchecker.ui.saved.Edit" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="SuppressKotlinCodeStyleNotification">
+    <option name="disableForAll" value="true" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

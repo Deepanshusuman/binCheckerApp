@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/savedList"
+    app:startDestination="@id/savedListFragment">
+    <fragment
+        android:id="@+id/savedDevice"
+        android:name="com.assets.binfinder.ui.saved.SavedDevice"
+        android:label="fragment_saved_device"
+        tools:layout="@layout/fragment_saved_device" />
+    <dialog
+        android:id="@+id/editDialog"
+        android:name="com.assets.binfinder.ui.saved.Edit"
+        android:label="fragment_edit"
+        tools:layout="@layout/fragment_edit">
+        <argument
+            android:name="uuid"
+            app:argType="string" />
+    </dialog>
+    <fragment
+        android:id="@+id/savedFavorite"
+        android:name="com.assets.binfinder.ui.saved.SavedFavorite"
+        android:label="fragment_saved_favorite"
+        tools:layout="@layout/fragment_saved_favorite" />
+    <fragment
+        android:id="@+id/savedListDetailsFragment"
+        android:name="com.assets.binfinder.ui.saved.SavedListDetailsFragment"
+        android:label="fragment_saved_list_details"
+        tools:layout="@layout/fragment_saved_list_details">
+        <argument
+            android:name="uuid"
+            app:argType="string" />
+        <action
+
+            android:id="@+id/action_savedListDetailsFragment_to_editDialog"
+            app:destination="@id/editDialog" />
+
+    </fragment>
+    <dialog
+        android:id="@+id/addDialog"
+        android:name="com.assets.binfinder.ui.saved.Add"
+        android:label="Add" />
+    <fragment
+        android:id="@+id/savedListFragment"
+        android:name="com.assets.binfinder.ui.saved.SavedFragment"
+        android:label="Saved"
+        tools:layout="@layout/fragment_saved">
+
+        <action
+
+            android:id="@+id/action_savedListFragment_to_addDialog"
+            app:destination="@id/addDialog" />
+        <action
+
+            android:id="@+id/action_savedListFragment_to_savedListDetailsFragment"
+            app:destination="@id/savedListDetailsFragment" />
+        <action
+
+            android:id="@+id/action_savedListFragment_to_savedFavorite"
+            app:destination="@id/savedFavorite" />
+        <action
+
+            android:id="@+id/action_savedListFragment_to_savedDevice"
+            app:destination="@id/savedDevice" />
+    </fragment>
+</navigation>

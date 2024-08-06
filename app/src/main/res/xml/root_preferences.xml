@@ -1,0 +1,32 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:title="@string/lookup_header">
+        <CheckBoxPreference
+            app:defaultValue="false"
+            app:key="showTimezone"
+            app:summary="@string/timezone_summary"
+            app:title="@string/show_timezone" />
+
+        <CheckBoxPreference
+            app:defaultValue="false"
+            app:key="incognitoMode"
+            app:summary="If enabled, the app will not save any data on device."
+            app:title="Incognito Mode" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory app:title="@string/seon">
+        <CheckBoxPreference
+            app:defaultValue="false"
+            app:key="useSeonApiKey"
+            app:summary="@string/use_seon_api_summary"
+            app:title="@string/use_seon_api" />
+        <EditTextPreference
+            app:defaultValue=""
+            app:dependency="useSeonApiKey"
+            app:key="seon_api_key"
+            app:title="@string/seon_api_key"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
